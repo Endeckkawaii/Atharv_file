@@ -1,0 +1,17 @@
+body{font-family: 'Itim', cursive;
+	background: linear-gradient(-45deg, #0616f8, #4eeb97, #b909ff, #f02e6f);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
